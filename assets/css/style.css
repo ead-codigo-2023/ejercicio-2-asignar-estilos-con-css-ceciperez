@@ -9,20 +9,52 @@ h1 {
     font-weight: 900;
     text-transform: uppercase;
     line-height: 90px; /* 125% */
+    width: 370px;
+    height: 355px;
+    flex-shrink: 0; 
 }
+
+p{
+    color: #191818;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.2px; 
+    width: 450.977px;
+    height: 43.568px;
+    flex-shrink: 0;
+}
+
+img{
+    width: 642.977px;
+    height: 569.451px;
+    flex-shrink: 0; 
+    background: url(<path-to-image>), rgb(211, 211, 211) -389.066px -182.935px / 204.859% 155.655% no-repeat;
+}
+
 
 a {
     background-color: black;
     color: white;
     padding: 12px 22px;
     border-radius: 8px;
+    text-transform: uppercase;
     
 }
 
 .hero{
-    background-color: #F4F6F5;
-    padding-top: 30px ;
-    padding-right: 500px;
-    padding-bottom: 30px;
-    padding-left: 50px;
+    width: 1180px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 50px;
+	background-color: #F4F6F5;
+	background-image: url(../images/image.jpg);
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	border-radius: 40px;
+}
+
+.hero__body{
+    width: 450px;
 }
